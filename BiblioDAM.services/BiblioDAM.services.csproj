@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BiblioDam.Core\BiblioDAM.Core.csproj" />
+    <ProjectReference Include="..\BiblioDAM.Data\BiblioDAM.Data.csproj" />
+  </ItemGroup>
+
+</Project>

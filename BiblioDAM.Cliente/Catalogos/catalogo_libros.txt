@@ -1,0 +1,53 @@
+9788499890942;El nombre del viento;Patrick Rothfuss;2007
+9788413142059;La chica del tren;Paula Hawkins;2015
+9788466659730;El guardián invisible;Dolores Redondo;2013
+9788420469288;Cien años de soledad;Gabriel García Márquez;1967
+9788408224193;Reina roja;Juan Gómez-Jurado;2018
+9788467032082;Los pilares de la Tierra;Ken Follett;1989
+9788420471830;Rayuela;Julio Cortázar;1963
+9788497593791;El código Da Vinci;Dan Brown;2003
+9788445010273;Neuromante;William Gibson;1984
+9788497592206;Crónica del pájaro que da cuerda al mundo;Haruki Murakami;1996
+9788499890959;El temor de un hombre sabio;Patrick Rothfuss;2011
+9788408225362;Loba negra;Juan Gómez-Jurado;2019
+9788408241003;Rey blanco;Juan Gómez-Jurado;2020
+9788408259794;Todo arde;Juan Gómez-Jurado;2022
+9788466621830;Legado en los huesos;Dolores Redondo;2013
+9788466628617;Ofrenda a la tormenta;Dolores Redondo;2014
+9788420412146;El amor en los tiempos del cólera;Gabriel García Márquez;1985
+9788497592475;Kafka en la orilla;Haruki Murakami;2002
+9788483835043;Tokio blues;Haruki Murakami;1987
+9788490628713;1Q84;Haruki Murakami;2009
+9788445000665;Juego de tronos;George R.R. Martin;1996
+9788445003428;Choque de reyes;George R.R. Martin;1998
+9788445003435;Tormenta de espadas;George R.R. Martin;2000
+9788445003442;Festín de cuervos;George R.R. Martin;2005
+9788445003459;Danza de dragones;George R.R. Martin;2011
+9788445076620;El Hobbit;J.R.R. Tolkien;1937
+9788445073735;El Señor de los Anillos: La Comunidad del Anillo;J.R.R. Tolkien;1954
+9788445073742;El Señor de los Anillos: Las Dos Torres;J.R.R. Tolkien;1954
+9788445073759;El Señor de los Anillos: El Retorno del Rey;J.R.R. Tolkien;1955
+9788445000496;Fundación;Isaac Asimov;1951
+9788445000502;Fundación e Imperio;Isaac Asimov;1952
+9788445000519;Segunda Fundación;Isaac Asimov;1953
+9788499083193;1984;George Orwell;1949
+9788499890944;Rebelión en la granja;George Orwell;1945
+9788420674209;Don Quijote de la Mancha;Miguel de Cervantes;1605
+9788467033533;Un mundo sin fin;Ken Follett;2007
+9788467037289;La caída de los gigantes;Ken Follett;2010
+9788467041811;El invierno del mundo;Ken Follett;2012
+9788467045734;El umbral de la eternidad;Ken Follett;2014
+9788408195030;Origen;Dan Brown;2017
+9788408175735;Inferno;Dan Brown;2013
+9788408099246;El símbolo perdido;Dan Brown;2009
+9788408060345;Ángeles y demonios;Dan Brown;2000
+9788432228506;La sombra del viento;Carlos Ruiz Zafón;2001
+9788408076179;El juego del ángel;Carlos Ruiz Zafón;2008
+9788408105954;El prisionero del cielo;Carlos Ruiz Zafón;2011
+9788408163459;El laberinto de los espíritus;Carlos Ruiz Zafón;2016
+9788466332545;Patria;Fernando Aramburu;2016
+9788423352838;La verdad sobre el caso Harry Quebert;Joël Dicker;2012
+9788420609270;Pedro Páramo;Juan Rulfo;1955
+9788437601762;La Celestina;Fernando de Rojas;1499
+9788420636122;Lazarillo de Tormes;Anónimo;1554
+9788437604947;La vida es sueño;Pedro Calderón de la Barca;1635
