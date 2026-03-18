@@ -124,7 +124,10 @@ namespace BiblioDAM.Api.Controllers
         }
 
         //// metodos delete 
-        ///
+        /// <s
+
+
+        [HttpDelete]
         public ActionResult DeleteLibro(string isbn)
         {
             var eliminar = _IserviceLibro.EliminarLibro(isbn);
