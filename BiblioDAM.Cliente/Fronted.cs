@@ -160,14 +160,16 @@ namespace BiblioDAM.Cliente
 
         private void btnBuscarLibro_Click(object sender, EventArgs e)
         {
-
+            Fronted2 pantalla = new Fronted2(_ApiClient);
+            pantalla.Show();
+            this.Hide();
         }
 
         private async void btnProbarConexion_Click(object sender, EventArgs e)
         {
             try
             {
-                _ApiClient.Testear();
+               await _ApiClient.Testear();
                 lblEstadoConexion.Text = " Conexion Abierta";
                 lblEstadoConexion.ForeColor = Color.Green;
             }

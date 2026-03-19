@@ -1,48 +1,48 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using BiblioDAM.services.Interfaces;
-using BiblioDAM.Data.Models;
-using BiblioDAM.Api.Dtos;
+﻿    using Microsoft.AspNetCore.Mvc;
+    using BiblioDAM.services.Interfaces;
+    using BiblioDAM.Data.Models;
+    using BiblioDAM.Api.Dtos;
 
-namespace BiblioDAM.Api.Controllers
-{
-    [ApiController]
-    [Route("api/[Controller]")]
-    public class AutoresController : Controller
+    namespace BiblioDAM.Api.Controllers
     {
-        private readonly IServiceAutores _serviceAutores;
-        public AutoresController(IServiceAutores serviceAutores)
+        [ApiController]
+        [Route("api/[Controller]")]
+        public class AutoresController : Controller
         {
-            _serviceAutores = serviceAutores;
-
-        }
-        [HttpGet]
-
-        public ActionResult<DtoLibros> GetAutores(string autor)
-        {
-            var resultado = _serviceAutores.GetAutor(autor);
-            if (resultado == null)
+            private readonly IServiceAutores _serviceAutores;
+            public AutoresController(IServiceAutores serviceAutores)
             {
-                return BadRequest(resultado);
+                _serviceAutores = serviceAutores;
+
             }
-            return Ok(resultado);
-        }
+            [HttpGet]
 
-
-        [HttpPost]
-        public ActionResult AddAutor([FromBody]DtoAutores dto)
-        {
-            var autor = new Autore { Nombre = dto.nombre };
-            var resultado = _serviceAutores.AddAutor(autor);
-            if (!resultado.condicion)
+            public ActionResult<DtoLibros> GetAutores(string autor)
             {
-                return BadRequest(resultado.message);
+                var resultado = _serviceAutores.GetAutor(autor);
+                if (resultado == null)
+                {
+                    return BadRequest(resultado);
+                }
+                return Ok(resultado);
             }
-            return Ok(resultado.message);
 
+
+            [HttpPost]
+            public ActionResult AddAutor([FromBody]DtoAutores dto)
+            {
+                var autor = new Autore { Nombre = dto.nombre };
+                var resultado = _serviceAutores.AddAutor(autor);
+                if (!resultado.condicion)
+                {
+                    return BadRequest(resultado.message);
+                }
+                return Ok(resultado.message);
+
+
+
+            }
 
 
         }
-
-
     }
-}

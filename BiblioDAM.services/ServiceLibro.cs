@@ -57,7 +57,7 @@ using Microsoft.EntityFrameworkCore;
 
             public List<Librobbdd> GetLibros()
             {
-                return _bbdd.Libros.ToList();
+                return  _bbdd.Libros.Include(l=>l.IdAutorNavigation).ToList();
             }
 
             public List<Librobbdd> GetLibrosByAutor(string nombre)
